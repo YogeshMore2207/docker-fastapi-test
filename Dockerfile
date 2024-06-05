@@ -1,10 +1,6 @@
 # Use the official Python image as base image
 FROM python:3.8-slim
 
-# Set environment variables
-ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1
-
 # Set working directory in the container
 WORKDIR /app
 
